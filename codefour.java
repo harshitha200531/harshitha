@@ -1,19 +1,14 @@
-package day2;
+class codefour{
 
-public class codefour {
-	public static void main(String args[]) {
-	int a,b,c,d,e;
-	a=2;
-	b=5;
-	c=8;
-	d=6;
-	e=4;
-	System.out.println(a);
-	System.out.println(b);
-	System.out.println(c);
-	System.out.println(d);
-	System.out.println(e);
-}
-	
+    public static void main(String[] args){
+        char[] ch={'A','B','C'};
+        int[] arr=new int[ch.length];
+        for(int i=0;i< ch.length;i++){
+            arr[i]=(int) ch[i];
+        }
+        for(int i=0;i<ch.length;i++){
+        System.out.println(ch[i]+"="+arr[i]);
 
+    }
+    }
 }

@@ -1,15 +1,9 @@
-package day2;
+class codethree{
 
-public class codethree {
-	public static void main(String args[]) {
-	int a=10;
-	int b=20;{
-	a=a+b;
-	b=a-b;
-	System.out.println(a);
-	System.out.println(b);
-	}
-	
-
-}
+    public static void main(String[] arg){
+        double a=10.5;
+        int b=(int)a; 
+        System.out.println(a);
+         System.out.println(b);
+    }
 }

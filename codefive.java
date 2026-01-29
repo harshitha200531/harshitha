@@ -1,10 +1,8 @@
-package day2;
+class codefive{
 
-public class codefive {
-	public static void main(String args[]) {
-		int length=10;
-		int width=5;
-		System.out.println(length*width);
-	}
-
+    public static void main(String[] arg){
+        int r=7;
+        double area=3.14*r*r;
+        System.out.println(area);
+    }
 }
