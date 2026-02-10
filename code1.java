@@ -1,11 +1,12 @@
-public class code1{
-     
-    public static void add(int x,int y){
-        int ans=x+y;
-        System.out.println(ans);
-    }
-    public static void main(String[] args){
-        add(20,30);
-    }
+public class code1 {
+    public static void main(String[] args) {
+        String s = "Java is powerful";
+String[] words = s.split(" ");
+
+for(int i = words.length-1; i >= 0; i--) {
+    System.out.print(words[i] + " ");
 }
 
+    }
+    
+}

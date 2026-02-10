@@ -1,17 +1,13 @@
-public class code5{
-    public static int add(int a,int b){
-        return a+b;
+public class code5 {
+    public static void main(String[] args) {
+        String email = "test@gmail.com";
 
-        
-    }
-    public static int add(int a,int b,int c){
-         return a+b+c;
-         
-    }
-
-public static void main(String[] args){
-            System.out.println(add(10,20));
-            System.out.println(add(10,20,30));
-    
+if(email.contains("@") && email.endsWith(".com")) {
+    System.out.println("Valid Email");
+} else {
+    System.out.println("Invalid Email");
 }
+
+    }
+    
 }

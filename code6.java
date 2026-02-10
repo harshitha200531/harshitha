@@ -1,16 +1,24 @@
-public class code6{
-    public static  double add(double a,double b){
-    return a+b;
+public class code6 {
+    public static void main(String[] args) {
+        long start = System.currentTimeMillis();
+
+String s = "";
+for(int i=0;i<10000;i++)
+    s += i;
+
+long end = System.currentTimeMillis();
+System.out.println("String Time: " + (end-start));
+
+start = System.currentTimeMillis();
+
+StringBuilder sb = new StringBuilder();
+for(int i=0;i<10000;i++)
+    sb.append(i);
+
+end = System.currentTimeMillis();
+System.out.println("StringBuilder Time: " + (end-start));
+
+
     }
     
-    public static int add(int a,int b){
-        return a+b;
-    }
-public static void main(String[] args){
-
-    double res=add(10,20);
-    int res1=add(10,20);
-    System.out.println(res);
-    System.out.println(res1);
-}
 }

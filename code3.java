@@ -1,8 +1,14 @@
-public class code3{
-    public static void print(){
-        System.out.println("alice");
-    }
+public class code3 {
     public static void main(String[] args){
-        print();
+        String s = "programming";
+String result = "";
+
+for(char c : s.toCharArray()) {
+    if(!result.contains(String.valueOf(c))) {
+        result += c;
     }
 }
+System.out.println(result);
+
+    }
+    }
